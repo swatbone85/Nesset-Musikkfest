@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D621281E77EB34007E9E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D621271E77EB34007E9E35 /* AppDelegate.swift */; };
+		45D6212A1E77EB34007E9E35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D621291E77EB34007E9E35 /* ViewController.swift */; };
+		45D6212D1E77EB34007E9E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D6212B1E77EB34007E9E35 /* Main.storyboard */; };
+		45D6212F1E77EB34007E9E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D6212E1E77EB34007E9E35 /* Assets.xcassets */; };
+		45D621321E77EB34007E9E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D621301E77EB34007E9E35 /* LaunchScreen.storyboard */; };
+		45D6213D1E77EB35007E9E35 /* Nesset_MusikkfestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6213C1E77EB35007E9E35 /* Nesset_MusikkfestTests.swift */; };
+		45D621481E77EB35007E9E35 /* Nesset_MusikkfestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D621471E77EB35007E9E35 /* Nesset_MusikkfestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45D621391E77EB35007E9E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D6211C1E77EB34007E9E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D621231E77EB34007E9E35;
+			remoteInfo = "Nesset Musikkfest";
+		};
+		45D621441E77EB35007E9E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D6211C1E77EB34007E9E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D621231E77EB34007E9E35;
+			remoteInfo = "Nesset Musikkfest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45D621241E77EB34007E9E35 /* Nesset Musikkfest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nesset Musikkfest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D621271E77EB34007E9E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45D621291E77EB34007E9E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45D6212C1E77EB34007E9E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45D6212E1E77EB34007E9E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45D621311E77EB34007E9E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45D621331E77EB34007E9E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D621381E77EB35007E9E35 /* Nesset MusikkfestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nesset MusikkfestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D6213C1E77EB35007E9E35 /* Nesset_MusikkfestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nesset_MusikkfestTests.swift; sourceTree = "<group>"; };
+		45D6213E1E77EB35007E9E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D621431E77EB35007E9E35 /* Nesset MusikkfestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nesset MusikkfestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D621471E77EB35007E9E35 /* Nesset_MusikkfestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nesset_MusikkfestUITests.swift; sourceTree = "<group>"; };
+		45D621491E77EB35007E9E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45D621211E77EB34007E9E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D621351E77EB35007E9E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D621401E77EB35007E9E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D6211B1E77EB34007E9E35 = {
+			isa = PBXGroup;
+			children = (
+				45D621261E77EB34007E9E35 /* Nesset Musikkfest */,
+				45D6213B1E77EB35007E9E35 /* Nesset MusikkfestTests */,
+				45D621461E77EB35007E9E35 /* Nesset MusikkfestUITests */,
+				45D621251E77EB34007E9E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45D621251E77EB34007E9E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D621241E77EB34007E9E35 /* Nesset Musikkfest.app */,
+				45D621381E77EB35007E9E35 /* Nesset MusikkfestTests.xctest */,
+				45D621431E77EB35007E9E35 /* Nesset MusikkfestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D621261E77EB34007E9E35 /* Nesset Musikkfest */ = {
+			isa = PBXGroup;
+			children = (
+				45D621271E77EB34007E9E35 /* AppDelegate.swift */,
+				45D621291E77EB34007E9E35 /* ViewController.swift */,
+				45D6212B1E77EB34007E9E35 /* Main.storyboard */,
+				45D6212E1E77EB34007E9E35 /* Assets.xcassets */,
+				45D621301E77EB34007E9E35 /* LaunchScreen.storyboard */,
+				45D621331E77EB34007E9E35 /* Info.plist */,
+			);
+			path = "Nesset Musikkfest";
+			sourceTree = "<group>";
+		};
+		45D6213B1E77EB35007E9E35 /* Nesset MusikkfestTests */ = {
+			isa = PBXGroup;
+			children = (
+				45D6213C1E77EB35007E9E35 /* Nesset_MusikkfestTests.swift */,
+				45D6213E1E77EB35007E9E35 /* Info.plist */,
+			);
+			path = "Nesset MusikkfestTests";
+			sourceTree = "<group>";
+		};
+		45D621461E77EB35007E9E35 /* Nesset MusikkfestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45D621471E77EB35007E9E35 /* Nesset_MusikkfestUITests.swift */,
+				45D621491E77EB35007E9E35 /* Info.plist */,
+			);
+			path = "Nesset MusikkfestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45D621231E77EB34007E9E35 /* Nesset Musikkfest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D6214C1E77EB35007E9E35 /* Build configuration list for PBXNativeTarget "Nesset Musikkfest" */;
+			buildPhases = (
+				45D621201E77EB34007E9E35 /* Sources */,
+				45D621211E77EB34007E9E35 /* Frameworks */,
+				45D621221E77EB34007E9E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nesset Musikkfest";
+			productName = "Nesset Musikkfest";
+			productReference = 45D621241E77EB34007E9E35 /* Nesset Musikkfest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45D621371E77EB35007E9E35 /* Nesset MusikkfestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D6214F1E77EB35007E9E35 /* Build configuration list for PBXNativeTarget "Nesset MusikkfestTests" */;
+			buildPhases = (
+				45D621341E77EB35007E9E35 /* Sources */,
+				45D621351E77EB35007E9E35 /* Frameworks */,
+				45D621361E77EB35007E9E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45D6213A1E77EB35007E9E35 /* PBXTargetDependency */,
+			);
+			name = "Nesset MusikkfestTests";
+			productName = "Nesset MusikkfestTests";
+			productReference = 45D621381E77EB35007E9E35 /* Nesset MusikkfestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45D621421E77EB35007E9E35 /* Nesset MusikkfestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D621521E77EB35007E9E35 /* Build configuration list for PBXNativeTarget "Nesset MusikkfestUITests" */;
+			buildPhases = (
+				45D6213F1E77EB35007E9E35 /* Sources */,
+				45D621401E77EB35007E9E35 /* Frameworks */,
+				45D621411E77EB35007E9E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45D621451E77EB35007E9E35 /* PBXTargetDependency */,
+			);
+			name = "Nesset MusikkfestUITests";
+			productName = "Nesset MusikkfestUITests";
+			productReference = 45D621431E77EB35007E9E35 /* Nesset MusikkfestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45D6211C1E77EB34007E9E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thomas Swatland";
+				TargetAttributes = {
+					45D621231E77EB34007E9E35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5EPZ9Z8JQS;
+						ProvisioningStyle = Automatic;
+					};
+					45D621371E77EB35007E9E35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5EPZ9Z8JQS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45D621231E77EB34007E9E35;
+					};
+					45D621421E77EB35007E9E35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5EPZ9Z8JQS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45D621231E77EB34007E9E35;
+					};
+				};
+			};
+			buildConfigurationList = 45D6211F1E77EB34007E9E35 /* Build configuration list for PBXProject "Nesset Musikkfest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45D6211B1E77EB34007E9E35;
+			productRefGroup = 45D621251E77EB34007E9E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D621231E77EB34007E9E35 /* Nesset Musikkfest */,
+				45D621371E77EB35007E9E35 /* Nesset MusikkfestTests */,
+				45D621421E77EB35007E9E35 /* Nesset MusikkfestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45D621221E77EB34007E9E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D621321E77EB34007E9E35 /* LaunchScreen.storyboard in Resources */,
+				45D6212F1E77EB34007E9E35 /* Assets.xcassets in Resources */,
+				45D6212D1E77EB34007E9E35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D621361E77EB35007E9E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D621411E77EB35007E9E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D621201E77EB34007E9E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D6212A1E77EB34007E9E35 /* ViewController.swift in Sources */,
+				45D621281E77EB34007E9E35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D621341E77EB35007E9E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D6213D1E77EB35007E9E35 /* Nesset_MusikkfestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D6213F1E77EB35007E9E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D621481E77EB35007E9E35 /* Nesset_MusikkfestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45D6213A1E77EB35007E9E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D621231E77EB34007E9E35 /* Nesset Musikkfest */;
+			targetProxy = 45D621391E77EB35007E9E35 /* PBXContainerItemProxy */;
+		};
+		45D621451E77EB35007E9E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D621231E77EB34007E9E35 /* Nesset Musikkfest */;
+			targetProxy = 45D621441E77EB35007E9E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45D6212B1E77EB34007E9E35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D6212C1E77EB34007E9E35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45D621301E77EB34007E9E35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D621311E77EB34007E9E35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45D6214A1E77EB35007E9E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45D6214B1E77EB35007E9E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45D6214D1E77EB35007E9E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EPZ9Z8JQS;
+				INFOPLIST_FILE = "Nesset Musikkfest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Development.Nesset-Musikkfest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45D6214E1E77EB35007E9E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EPZ9Z8JQS;
+				INFOPLIST_FILE = "Nesset Musikkfest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Development.Nesset-Musikkfest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45D621501E77EB35007E9E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5EPZ9Z8JQS;
+				INFOPLIST_FILE = "Nesset MusikkfestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Development.Nesset-MusikkfestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nesset Musikkfest.app/Nesset Musikkfest";
+			};
+			name = Debug;
+		};
+		45D621511E77EB35007E9E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5EPZ9Z8JQS;
+				INFOPLIST_FILE = "Nesset MusikkfestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Development.Nesset-MusikkfestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nesset Musikkfest.app/Nesset Musikkfest";
+			};
+			name = Release;
+		};
+		45D621531E77EB35007E9E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5EPZ9Z8JQS;
+				INFOPLIST_FILE = "Nesset MusikkfestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Development.Nesset-MusikkfestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Nesset Musikkfest";
+			};
+			name = Debug;
+		};
+		45D621541E77EB35007E9E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5EPZ9Z8JQS;
+				INFOPLIST_FILE = "Nesset MusikkfestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swatland-Development.Nesset-MusikkfestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Nesset Musikkfest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D6211F1E77EB34007E9E35 /* Build configuration list for PBXProject "Nesset Musikkfest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D6214A1E77EB35007E9E35 /* Debug */,
+				45D6214B1E77EB35007E9E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D6214C1E77EB35007E9E35 /* Build configuration list for PBXNativeTarget "Nesset Musikkfest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D6214D1E77EB35007E9E35 /* Debug */,
+				45D6214E1E77EB35007E9E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45D6214F1E77EB35007E9E35 /* Build configuration list for PBXNativeTarget "Nesset MusikkfestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D621501E77EB35007E9E35 /* Debug */,
+				45D621511E77EB35007E9E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45D621521E77EB35007E9E35 /* Build configuration list for PBXNativeTarget "Nesset MusikkfestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D621531E77EB35007E9E35 /* Debug */,
+				45D621541E77EB35007E9E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45D6211C1E77EB34007E9E35 /* Project object */;
+}
