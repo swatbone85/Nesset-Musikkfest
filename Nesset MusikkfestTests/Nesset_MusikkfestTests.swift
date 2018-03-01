@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Nesset_Musikkfest
+//@testable import Nesset_Musikkfest
 
 class Nesset_MusikkfestTests: XCTestCase {
     
